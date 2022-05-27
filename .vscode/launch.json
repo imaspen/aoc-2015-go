@@ -19,6 +19,22 @@
 			"args": ["1", "2"],
 			"mode": "auto",
 			"program": "${workspaceFolder}"
+		},
+		{
+			"name": "Day 2, Part 1",
+			"type": "go",
+			"request": "launch",
+			"args": ["2", "1"],
+			"mode": "auto",
+			"program": "${workspaceFolder}"
+		},
+		{
+			"name": "Day 2, Part 2",
+			"type": "go",
+			"request": "launch",
+			"args": ["2", "2"],
+			"mode": "auto",
+			"program": "${workspaceFolder}"
 		}
 	]
 }
