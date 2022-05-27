@@ -7,6 +7,7 @@ import (
 
 	"github.com/imaspen/aoc-2015-go/days/day01"
 	"github.com/imaspen/aoc-2015-go/days/day02"
+	"github.com/imaspen/aoc-2015-go/days/day03"
 )
 
 // exit prints usage information and then exits with code 1.
@@ -39,6 +40,9 @@ func main() {
 		break
 	case 2:
 		result = day02.Run(part)
+		break
+	case 3:
+		result = day03.Run(part)
 		break
 	default:
 		fmt.Printf("Unrecognized day: %d.\n", day)
