@@ -83,6 +83,22 @@
 			"args": ["5", "2"],
 			"mode": "auto",
 			"program": "${workspaceFolder}"
+		},
+		{
+			"name": "Day 6, Part 1",
+			"type": "go",
+			"request": "launch",
+			"args": ["6", "1"],
+			"mode": "auto",
+			"program": "${workspaceFolder}"
+		},
+		{
+			"name": "Day 6, Part 2",
+			"type": "go",
+			"request": "launch",
+			"args": ["6", "2"],
+			"mode": "auto",
+			"program": "${workspaceFolder}"
 		}
 	]
 }
